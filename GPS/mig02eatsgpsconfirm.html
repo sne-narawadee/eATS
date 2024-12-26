@@ -53,13 +53,13 @@
             window.location.href = 'https://sne-narawadee.github.io/eDS/eATSRpt/MIG02/mig02eatsgdailyreal_rpt.html';
         });
 
-        // รอ 2 วินาที (2000 มิลลิวินาที) แล้วทำให้ปุ่มค่อยๆ ปรากฏ
+        // รอ 3 วินาที (3000 มิลลิวินาที) แล้วทำให้ปุ่มค่อยๆ ปรากฏ
         window.onload = function() {
             console.log('Window loaded. Starting timer...');
             setTimeout(function() {
                 console.log('Timer completed. Showing button.');
                 document.getElementById('save-button').style.opacity = 1;
-            }, 2000); // 2000 มิลลิวินาที = 2 วินาที
+            }, 3000); // 3000 มิลลิวินาที = 3 วินาที
         };
     </script>
 </body>
